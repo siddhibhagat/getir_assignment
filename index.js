@@ -5,7 +5,7 @@ const compression = require('compression');
 const express = require('express');
 const app = express();
 
-const port = process.env.PORT ||3000;
+const port = process.env.PORT || 3000;
 
 mongoose.connect('mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true')
   .then(() => console.log('Connected to DB..'))
