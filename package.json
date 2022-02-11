@@ -1,0 +1,27 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.15.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
